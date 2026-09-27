@@ -1,0 +1,8 @@
+# Extrator de Faturas (app_fatura.py + fatura_extractor.py)
+pandas>=2.1
+pdfplumber>=0.11
+openpyxl>=3.1
+customtkinter>=5.2   # interface
+pypdf>=4.0          # remover senha (cópia sem senha)
+cryptography>=42    # PDFs com criptografia AES, comum nos bancos
+# Tkinter vem do sistema, não do pip. No Arch/Omarchy: sudo pacman -S tk
