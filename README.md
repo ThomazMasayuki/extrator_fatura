@@ -24,7 +24,7 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-python app_fatura.py                 # abre o app
+python app_fatura.py (Abre o App)
 
 **Fluxo: Selecionar → Extrair → Conferir → Exportar.**
 
