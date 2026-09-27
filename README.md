@@ -3,6 +3,7 @@
 App desktop em Python que lê faturas de cartão em PDF, extrai os lançamentos, confronta a soma com o total da fatura e exporta para Excel. Todo o processamento é local.
 
 **Funcionalidades**
+
 Leitura genérica de layouts: qualquer linha DATA  DESCRIÇÃO  VALOR (BB, Itaú, Nubank e outros), com data em 27/08, 27/08/2026 ou 27 AGO.
 Parcelas, créditos e internacionais: reconhece 04/10, estornos (−R$, 40,00-, sufixo C) e compras no exterior.
 Resumo da fatura: vencimento, total, mínimo e limites, inclusive quando o valor está numa caixa separada do rótulo.
